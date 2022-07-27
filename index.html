@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="rectangle1" id="rectangle1">
+            <div class="left">
+                <div class="search">
+                    <input id="formfield" type="text" placeholder="City">
+                    <button id="btn">Search</button>
+                </div>
+                <div class="location">
+                    <img src="/assets/map-marker.png" alt="location">
+                    <span id="city-name">walewale</span><span>, </span>
+                    <span id="country">Ghana</span>
+                </div>
+                <div class="card">
+                    <div class="degree">
+                       <div><span id="temperature">20</span> <span><sup>o</sup>C</span>  </div> 
+                        <img src="./assets/weather-partly-cloudy (1).png" alt="">
+                    </div>
+                   
+                    <div class="feels">
+                        <span>Feels Like:</span>
+                        <span id="feels"></span>
+                    </div>
+                </div>
+                <div class="variable">
+                    <div class="val">
+                        <span>UV Index:</span>
+                        <span>0</span>
+                    </div>
+                    <div class="val">
+                        <span>Humidity:</span>
+                        <span id="humidity">0</span>
+                    </div>
+                    <div class="val">
+                        <span>Wind Speed:</span>
+                        <span id="windspeed">0</span>
+                    </div>
+                    <div class="val">
+                        <span>Max Temperature:</span>
+                        <span id="max">0</span>
+                    </div>
+                    <div class="val">
+                        <span>Pressure:</span>
+                        <span id="pressure">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="img-container">
+                   
+                    <img src="/assets/45869-farmers.gif" alt="farmer">
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
